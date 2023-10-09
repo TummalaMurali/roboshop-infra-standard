@@ -33,7 +33,6 @@ pipeline {
 
         stage('Apply') {
             steps{
-                sh 'cd 01-vpc'
                 sh '''
                     pwd
                     ls -ltr
